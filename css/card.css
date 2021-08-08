@@ -1,0 +1,88 @@
+.card{
+    height: 653px;
+
+    padding: 80px 117px;
+}
+.card-comment{
+   
+     width: 1132;
+     height: 493px ;
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background: rgba(255, 255, 255, 0.1);
+
+     border: 10px solid transparent;
+     border-image: linear-gradient(to right, #ffffff17 2%,#310a9000 80%) 1;
+   
+    }
+   
+      
+.card-comment img{
+   align-items: center;
+   text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 80px; 
+    margin-bottom: 24px;
+}
+
+.card-comment p{
+  
+ font: var(--body4);
+ width: 972px;
+ text-align: center;
+ color: var(--purpura);
+
+
+
+}
+
+
+.card-comment p a{
+  
+    font: var(--headline5);
+    width: 972px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+    margin: 0;
+    padding-block-end: 80px;
+    opacity: 0.5;
+    
+   }
+@media screen and (max-width:768px){
+    .card{
+        display: flex;
+        justify-content: centers;
+        width: 360px;
+        height: 481px;
+        padding: 16px;
+        justify-content: center;
+
+        gap: 24px
+ }
+   .card-comment{
+        width: 328px;
+        height: 329px;
+         text-align: center;
+         padding:0px  24px;
+   }
+   .card-comment img{
+    width: 64px;
+    height: 64px;
+    
+     text-align: center;
+
+}
+    .card-comment p{
+        width:350px;
+        text-align: center;
+        font: var(--body5);
+        margin: 0px 24px;
+
+    }
+
+}

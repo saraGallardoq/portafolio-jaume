@@ -1,0 +1,54 @@
+.comment{
+   
+    height: 678px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment p{
+    font: var(--headline6);
+    text-align: center;
+    width: 900px;
+   
+}
+.comment p a{
+    font: var(--headline5);
+    text-align: center;
+    width: 900px;
+    color: var(--purpura);
+    text-decoration: none;
+}
+.comment img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width:500px){
+   .comment{
+       display: flex;
+       width: 360px;
+       height: 481px;
+       margin: 0px;
+       gap: 20px;
+   }
+   .comment p{
+       width:328px;
+       
+      font: var(--headline6);
+       margin-top:40px 0px 0px 0px ;
+       
+    
+}
+
+    .comment p a{
+      
+        width:328px;
+        height: 78px;
+        align-items: center;
+    
+    }
+}
+

@@ -1,0 +1,48 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./comment.css";
+@import "./card.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --fontBase2: 'Oxígeno', sans-serif;
+    --headline1: bold 95px/153.71px var(--fontBase) ;
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/77px var(--fontBase);
+    --headline4: bold 34px/55px var(--fontBase);
+    --headline5: bold 24px/38px var(--fontBase);
+    --headline6:24px/38px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --button:bold 14px/22px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
+
+    --body3: 34px/55px var(--fontBase2);
+    --body4: bold 34px/55px var(--fontBase2);
+    --body5: bold 16px/25px var(--fontBase2);
+    
+    --purpura:#310A90;
+    --verde:#42E2B8;
+    --white: white;
+    
+    --orange: #f6bf96;
+    --menta: #80c4b5;
+
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #f7e47db7 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #f6bf96 0%, #f1a166 100%);
+}
+body{
+    margin: 0;
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--purpura);
+}
